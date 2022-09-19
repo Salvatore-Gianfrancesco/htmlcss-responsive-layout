@@ -263,6 +263,61 @@ header .btn{
 
 /* /Planning section */
 
+/* Testimonials section */
+
+.testimonials {
+    background-color: var(--light);
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.testimonials span {
+    font-size: 1.1rem;
+}
+
+.testimonials h1 {
+    color: var(--secondary);
+    padding: 2rem 0rem;
+}
+
+.testimonials .card {
+    background-color: var(--secondary);
+    color: var(--light);
+    margin: 2rem 0;
+    padding-left: 1rem;
+    border-radius: 50px;
+}
+
+.testimonials .card .col-2 {
+    display: flex;
+    align-items: center;
+}
+
+.testimonials .card .col-10 {
+    padding-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cit p {
+    display: inline;
+}
+
+.partner {
+    font-weight: 600;
+    padding-top: 2rem;
+}
+
+.testimonials img {
+    width: 100%;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+}
+
+/* /Testimonials section */
+
 /* #endregion Main */
 
 
