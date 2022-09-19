@@ -201,7 +201,28 @@ header .btn{
 
 /* MOBILE */
 @media screen and (max-width: 480px) {
+    .container{
+        width: 90%;
+    }
 
+    .description .row{
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    .description .col-4{
+        width: 100%;
+        margin: 1rem;
+    }
+
+    .description .col-8{
+        width: 100%;
+        margin: 1rem;
+    }
+
+    .description .col-8 .card .col-6:last-of-type{
+        text-align: center;
+    }
 }
 
 /* #endregion Responsive */
