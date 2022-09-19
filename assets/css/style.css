@@ -1,5 +1,12 @@
 :root{
-
+    --light: #fefffe;
+    --darken: #000;
+    --dark: #323233;
+    --primary: #9792e4;
+    --primary-light: #c8c8f0;
+    --secondary: #0085fc;
+    --secondary-light: #b4dcff;
+    --accent: #fcc05f;
 }
 
 /* #region Common */
@@ -10,5 +17,27 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
 /* #endregion Common */
+
+/* #region Utilities */
+
+.container_fluid{
+    width: 100%;
+    margin: auto;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+}
+
+/* #endregion Utilities */
 
