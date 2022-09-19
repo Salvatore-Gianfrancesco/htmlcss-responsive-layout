@@ -318,6 +318,66 @@ header .btn{
 
 /* /Testimonials section */
 
+/* Benefits section */
+
+.benefits {
+    background-color: var(--secondary);
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.benefits h1 {
+    color: var(--light);
+    margin-bottom: 3rem;
+}
+
+.benefits .row {
+    margin: 1rem -1rem;
+    flex-wrap: wrap;
+}
+
+.benefits .col-4 {
+    margin: 1rem 0;
+}
+
+.benefits .card {
+    background-color: var(--light);
+    text-align: start;
+    margin: 0 1rem;
+    border-radius: 20px;
+}
+
+.number {
+    color: var(--secondary);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.benefits h3 {
+    color: var(--secondary);
+    padding: 1rem 0;
+}
+
+.benefits p {
+    line-height: 1.8rem;
+    padding: 1rem 0;
+}
+
+.benefits .btn {
+    background-color: var(--secondary);
+    color: var(--light);
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    padding: 0.5rem 3rem;
+    display: inline-block;
+}
+
+/* /Benefits section */
+
+
+
 /* #endregion Main */
 
 
