@@ -398,6 +398,25 @@ header .btn{
     .strategic_planning h2 {
         font-size: 2rem;
     }
+
+    .testimonials .row {
+        flex-wrap: wrap;
+    }
+
+    .testimonials .card .col-2 {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .testimonials .card .col-10 {
+        width: 100%;
+        margin-top: 1rem;
+        padding: 0;
+    }
+
+    .testimonials img {
+        width: 80%;
+    }
 }
 
 /* #endregion Responsive */
