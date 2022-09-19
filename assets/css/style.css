@@ -292,7 +292,19 @@ header .btn{
         width: 60%;
     }
 
-    
+    .planning .row {
+        width: 100%;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .strategic_planning img {
+        width: 100%;
+    }
+
+    .strategic_planning h2 {
+        font-size: 3.5rem;
+    }
 }
 
 /* MOBILE */
