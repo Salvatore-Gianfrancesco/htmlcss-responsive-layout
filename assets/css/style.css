@@ -2,10 +2,10 @@
     --light: #fefffe;
     --darken: #000;
     --dark: #323233;
-    --primary: #9792e4;
-    --primary-light: #c8c8f0;
-    --secondary: #0085fc;
-    --secondary-light: #b4dcff;
+    --primary: #0085fc;
+    --primary-light: #b4dcff;
+    --secondary: #9792e4;
+    --secondary-light: #c8c8f0;
     --accent: #fcc05f;
 }
 
@@ -25,13 +25,13 @@ body{
 
 /* #region Utilities */
 
-.container_fluid{
-    width: 100%;
+.container{
+    width: 60%;
     margin: auto;
 }
 
-.container{
-    width: 60%;
+.container-small{
+    width: 30%;
     margin: auto;
 }
 
@@ -39,5 +39,43 @@ body{
     display: flex;
 }
 
+.btn{
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+}
+
 /* #endregion Utilities */
 
+/* #region Header */
+
+header{
+    background-color: var(--primary);
+    padding: 1rem;
+}
+
+header .row{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    margin: 0rem -1rem;
+}
+
+.menu nav{
+    display: inline-block;
+}
+
+.menu nav a{
+    color: var(--light);
+    text-decoration: none;
+    padding: 0rem 1rem;
+}
+
+.btn{
+    background-color: var(--light);
+    color: var(--darken);
+    text-decoration: none;
+}
+
+/* #endregion Header */
