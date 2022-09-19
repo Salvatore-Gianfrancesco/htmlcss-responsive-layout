@@ -360,6 +360,14 @@ header .btn{
     .strategic_planning h2 {
         font-size: 3.5rem;
     }
+
+    .testimonials .card {
+        padding: 1.5rem 1rem;
+    }
+
+    .testimonials h1 {
+        font-size: 2rem;
+    }
 }
 
 /* MOBILE */
