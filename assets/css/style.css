@@ -433,7 +433,7 @@ header .btn{
         width: calc(100% / 12 * 6);
     }
 
-    
+
 }
 
 /* MOBILE */
@@ -482,6 +482,10 @@ header .btn{
 
     .testimonials img {
         width: 80%;
+    }
+
+    .benefits .col-4 {
+        width: 100%;
     }
 }
 
