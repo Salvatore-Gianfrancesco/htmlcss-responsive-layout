@@ -428,6 +428,12 @@ header .btn{
     .testimonials h1 {
         font-size: 2rem;
     }
+
+    .benefits .col-4 {
+        width: calc(100% / 12 * 6);
+    }
+
+    
 }
 
 /* MOBILE */
