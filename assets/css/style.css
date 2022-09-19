@@ -332,7 +332,9 @@ header .btn{
         text-align: center;
     }
 
-    
+    .strategic_planning h2 {
+        font-size: 2rem;
+    }
 }
 
 /* #endregion Responsive */
