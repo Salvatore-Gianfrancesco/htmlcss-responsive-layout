@@ -1,4 +1,4 @@
-:root{
+:root {
     --light: #fefffe;
     --dark-light: #5f7587;
     --dark: #323233;
@@ -12,30 +12,30 @@
 
 /* #region Common */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2rem;
 }
 
-img{
+img {
     max-width: 100%;
 }
 
-h1{
+h1 {
     font-size: 2.5rem;
 }
 
-h2{
+h2 {
     font-size: 2rem;
 }
 
-h3{
+h3 {
     font-size: 1.5rem;
 }
 
@@ -43,56 +43,56 @@ h3{
 
 /* #region Utilities */
 
-.container{
+.container {
     max-width: 1200px;
     margin: auto;
 }
 
-.container-small{
+.container-small {
     width: 30%;
     margin: auto;
 }
 
-.row{
+.row {
     display: flex;
 }
 
-.col-2{
+.col-2 {
     width: calc(100% / 12 * 2.4);
 }
 
-.col-4{
+.col-4 {
     width: calc(100% / 12 * 4);
 }
 
-.col-6{
+.col-6 {
     width: calc(100% / 12 * 6);
 }
 
-.col-8{
+.col-8 {
     width: calc(100% / 12 * 8);
 }
 
-.col-10{
+.col-10 {
     width: calc(100% / 12 * 9.6);
 }
 
-.card{
+.card {
     height: 100%;
     padding: 2rem;
 }
 
-.btn{
+.btn {
     padding: 0.5rem 1rem;
     border-radius: 50px;
     text-decoration: none;
 }
 
-.m-left{
+.m-left {
     margin-left: 0.5rem;
 }
 
-.m-right{
+.m-right {
     margin-right: 0.5rem;
 }
 
@@ -100,27 +100,27 @@ h3{
 
 /* #region Header */
 
-header{
+header {
     background-color: var(--primary);
     padding: 1rem;
 }
 
-header .row{
+header .row {
     justify-content: space-between;
     align-items: center;
 }
 
-.menu nav{
+.menu nav {
     display: inline-block;
 }
 
-.menu nav a{
+.menu nav a {
     color: var(--light);
     text-decoration: none;
     padding: 0rem 1rem;
 }
 
-header .btn{
+header .btn {
     background-color: var(--light);
     color: var(--darken);
 }
@@ -131,47 +131,47 @@ header .btn{
 
 /* Description section */
 
-.description{
+.description {
     background-color: var(--light);
     padding-top: 2rem;
     padding-bottom: 5rem;
 }
 
-.description .row{
+.description .row {
     margin: 1rem 0rem;
 }
 
-.description .card{
+.description .card {
     background-color: var(--primary-light);
     border-radius: 20px;
     padding-bottom: 0;
 }
 
-.description .col-8 .card{
+.description .col-8 .card {
     display: flex;
     justify-content: space-between;
 }
 
-.description .col-4 .card{
+.description .col-4 .card {
     text-align: center;
 }
 
-.description .col-8 .card .col-6:last-of-type{
+.description .col-8 .card .col-6:last-of-type {
     text-align: center;
 }
 
-.description h3{
+.description h3 {
     color: var(--primary);
 }
 
-.description p{
+.description p {
     color: var(--dark-light);
     font-weight: 700;
     line-height: 1.8rem;
     margin: 2rem 0rem;
 }
 
-.description .btn{
+.description .btn {
     background-color: var(--primary);
     color: var(--light);
     font-size: 1.1rem;
@@ -180,13 +180,13 @@ header .btn{
     padding: 0.5rem 4rem;
 }
 
-.description img.phone{
+.description img.phone {
     width: 75%;
     height: 100%;
     padding-top: 2rem;
 }
 
-.description .col-4 i{
+.description .col-4 i {
     font-size: 5rem;
     color: var(--primary);
     padding-bottom: 1rem;
@@ -376,7 +376,62 @@ header .btn{
 
 /* /Benefits section */
 
+/* About Us Section */
 
+.about_us{
+    padding: 5rem 0;
+}
+
+.about_us h1{
+    color: var(--secondary);
+    font-size: 4rem;
+    padding-bottom: 1.5rem;
+}
+
+.about_us p{
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    padding: 1.5rem 0;
+}
+
+.about_us .col-8,
+.about_us .col-4{
+    padding: 0 4rem;
+}
+
+.about_us .col-4 div{
+    text-align: center;
+    padding-bottom: 1rem;
+    position: relative;
+}
+
+.about_us img{
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+}
+
+.about_us h3{
+    color: var(--secondary);
+}
+
+.about_us .btn{
+    background-color: var(--secondary);
+    color: var(--light);
+    font-size: 0.8rem;
+    word-spacing: 0.2rem;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.about_us i{
+    color: var(--secondary);
+    font-size: 6rem;
+    position: absolute;
+    top: -1rem;
+    right: -1rem;
+}
+
+/* /About Us Section */
 
 /* #endregion Main */
 
@@ -386,24 +441,24 @@ header .btn{
 
 /* TABLET */
 @media screen and (max-width: 768px) {
-    .container{
+    .container {
         width: 95%;
     }
 
-    .description .col-8 .card{
+    .description .col-8 .card {
         flex-wrap: wrap;
     }
 
     .description .col-6,
-    .planning .col-6{
+    .planning .col-6 {
         width: 100%;
     }
 
-    .description .col-8 .card .col-6:last-of-type{
+    .description .col-8 .card .col-6:last-of-type {
         text-align: start;
     }
 
-    .description img.phone{
+    .description img.phone {
         width: 60%;
     }
 
@@ -438,26 +493,26 @@ header .btn{
 
 /* MOBILE */
 @media screen and (max-width: 480px) {
-    .container{
+    .container {
         width: 85%;
     }
 
-    .description .row{
+    .description .row {
         flex-wrap: wrap;
         margin: 0;
     }
 
-    .description .col-4{
+    .description .col-4 {
         width: 100%;
         margin: 1rem;
     }
 
-    .description .col-8{
+    .description .col-8 {
         width: 100%;
         margin: 1rem;
     }
 
-    .description .col-8 .card .col-6:last-of-type{
+    .description .col-8 .card .col-6:last-of-type {
         text-align: center;
     }
 
@@ -490,4 +545,3 @@ header .btn{
 }
 
 /* #endregion Responsive */
-
