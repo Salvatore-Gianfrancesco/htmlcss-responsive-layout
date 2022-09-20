@@ -549,6 +549,27 @@ header .btn {
     .benefits .col-4 {
         width: 100%;
     }
+
+    .about_us .row{
+        flex-wrap: wrap;
+    }
+
+    .about_us .col-8{
+        width: 100%;
+    }
+
+    .about_us .col-4{
+        width: 100%;
+        text-align: start;
+    }
+
+    .about_us h1{
+        font-size: 3rem;
+    }
+
+    .about_us .col-4 div{
+        width: 60%;
+    }
 }
 
 /* #endregion Responsive */
