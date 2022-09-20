@@ -486,7 +486,29 @@ header .btn {
 
 /* #endregion Main */
 
+/* #region Footer */
 
+footer{
+    background-color: var(--dark);
+    color: var(--light);
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 2rem 0;
+}
+
+footer p{
+    padding: 0 6rem 3rem 6rem;
+}
+
+.links{
+    padding: 0rem 6rem;
+}
+
+.links a{
+    color: var(--secondary);
+}
+
+/* #endregion Footer */
 
 /* #region Responsive */
 
