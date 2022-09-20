@@ -19,7 +19,8 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.2rem;
 }
 
 img {
@@ -27,7 +28,7 @@ img {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 h2 {
@@ -272,13 +273,8 @@ header .menu_symbol{
 
 .testimonials {
     background-color: var(--light);
-    text-align: center;
     padding-top: 2rem;
     padding-bottom: 3rem;
-}
-
-.testimonials span {
-    font-size: 1.1rem;
 }
 
 .testimonials h1 {
@@ -311,7 +307,8 @@ header .menu_symbol{
 }
 
 .partner {
-    font-weight: 600;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
     padding-top: 2rem;
 }
 
@@ -367,6 +364,7 @@ header .menu_symbol{
 
 .benefits p {
     color: var(--dark-light);
+    font-size: 1rem;
     line-height: 1.8rem;
     padding: 1rem 0;
 }
