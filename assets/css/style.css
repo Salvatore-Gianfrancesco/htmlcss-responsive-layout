@@ -124,6 +124,12 @@ header .btn {
     color: var(--darken);
 }
 
+header .menu_symbol{
+    font-size: 1.5rem;
+    color: var(--light);
+    display: none;
+}
+
 /* #endregion Header */
 
 /* #region Main */
@@ -520,6 +526,14 @@ footer p{
 
     .container_small{
         width: 80%;
+    }
+
+    header .menu{
+        display: none;
+    }
+
+    header .menu_symbol{
+        display:block;
     }
 
     .description .col-8 .card {
