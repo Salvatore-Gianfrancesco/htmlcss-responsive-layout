@@ -659,6 +659,15 @@ footer p{
     .get_started .btn{
         padding: 1rem 4rem;
     }
+
+    footer p{
+        padding: 0;
+        padding-bottom: 3rem;
+    }
+    
+    .links{
+        padding: 0;
+    }
 }
 
 /* #endregion Responsive */
