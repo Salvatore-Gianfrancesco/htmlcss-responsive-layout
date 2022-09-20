@@ -496,6 +496,10 @@ header .btn {
         width: 95%;
     }
 
+    .container_small{
+        width: 80%;
+    }
+
     .description .col-8 .card {
         flex-wrap: wrap;
     }
@@ -620,6 +624,18 @@ header .btn {
 
     .about_us .col-4 div{
         width: 60%;
+    }
+
+    .get_started h1{
+        font-size: 2rem;
+    }
+
+    .accent{
+        font-size: 4rem;
+    }
+
+    .get_started .btn{
+        padding: 1rem 4rem;
     }
 }
 
