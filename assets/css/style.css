@@ -131,6 +131,23 @@ header .menu_symbol{
     display: none;
 }
 
+.dropdown,
+.dropdown_content{
+    display: none;
+}
+
+.dropdown_content a{
+    color: var(--light);
+    text-decoration: none;
+    padding: 0.2rem 0rem;
+    display: block;
+}
+
+.dropdown .btn{
+    color: var(--darken);
+    padding: 0.2rem 1rem;
+}
+
 /* #endregion Header */
 
 /* #region Main */
@@ -585,6 +602,16 @@ footer p{
 
     .about_us .col-4 div i{
         font-size: 4rem;
+    }
+
+    .dropdown{
+        text-align: end;
+        display: inline-block;
+        position: relative;
+    }
+    
+    .dropdown:hover .dropdown_content{
+        display: block;
     }
 }
 
