@@ -423,7 +423,7 @@ header .btn {
     display: inline-block;
 }
 
-.about_us i{
+.about_us .col-4 div i{
     color: var(--secondary);
     font-size: 6rem;
     position: absolute;
@@ -488,7 +488,14 @@ header .btn {
         width: calc(100% / 12 * 6);
     }
 
+    .about_us .col-8,
+    .about_us .col-4{
+        padding: 0 2rem;
+    }
 
+    .about_us .col-4 div i{
+        font-size: 4rem;
+    }
 }
 
 /* MOBILE */
