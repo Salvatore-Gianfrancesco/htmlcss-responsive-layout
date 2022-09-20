@@ -172,7 +172,13 @@ header .btn:hover {
 }
 
 .description .row {
-    margin: 1rem 0rem;
+    margin: 1rem -1rem;
+    flex-wrap: wrap;
+}
+
+.description .col-8,
+.description .col-4{
+    padding: 1rem;
 }
 
 .description .card {
@@ -581,6 +587,11 @@ footer p {
         display: block;
     }
 
+    .description .col-8,
+    .description .col-4{
+        padding: 0.5rem;
+    }
+
     .description .col-8 .card {
         flex-wrap: wrap;
     }
@@ -655,14 +666,10 @@ footer p {
         margin: 0;
     }
 
-    .description .col-4 {
+    .description .col-8,
+    .description .col-4{
         width: 100%;
-        margin: 1rem;
-    }
-
-    .description .col-8 {
-        width: 100%;
-        margin: 1rem;
+        padding: 1rem;
     }
 
     .description .col-8 .card .col-6:last-of-type {
